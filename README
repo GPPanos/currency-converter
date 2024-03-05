@@ -1,0 +1,40 @@
+Currency Converter
+
+This Python script allows users to interact with a currency converter using the free.currconv.com API. Users can list available currencies, convert amounts between different currencies, and check exchange rates.
+
+Prerequisites
+
+Before running the script, make sure you have the required Python libraries installed:
+
+```bash
+pip install requests
+```
+
+Getting Started
+
+1. Get your API key from [free.currconv.com](https://free.currconv.com/).
+2. Replace the placeholder `API_KEY` in the script with your actual API key.
+
+Usage
+
+1. Run the script using Python:
+
+   ```bash
+   python currency_converter.py
+   ```
+
+2. Follow the on-screen prompts to perform currency-related tasks:
+
+   - `List`: View a list of available currencies.
+   - `Convert`: Convert an amount from one currency to another.
+   - `Rate`: Get the exchange rate between two currencies.
+
+Enter `q` to quit the program.
+
+Notes
+
+- The script uses the free.currconv.com API, and an internet connection is required for its functionality.
+- Currency codes (e.g., USD, EUR) should be entered in uppercase.
+- Amounts should be entered as numeric values.
+
+Feel free to explore and enhance the script as needed for your use case.
